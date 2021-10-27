@@ -147,12 +147,33 @@ hr {
     width: 73ch;
 }
 
-.iframe {
+
+/* .iframe {
     display: inline-flex;
     word-wrap: break-word;
     gap: 1.25rem;
     column-gap: 1.5rem;
     margin: 20px;
+    flex-direction: row-reverse;
+} */
+
+.iframe {
+    /* display: inline-flex; */
+    display: flex;
+    word-wrap: break-word;
+    gap: 1.25rem;
+    column-gap: 1.5rem;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.justificar-der {
+    justify-content: right;
+}
+
+.justificar-izq {
+    justify-content: left;
 }
 
 
