@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- USAR IBM SANS  -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Two+Tone|Material+Icons+Sharp">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="icon" href="img/ico2.ico" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Shaders</title>
+
+
+</head>
+
+<body>
+    <div id="app">
+        <div class="contenedor">
+            <!-- <div >
+                <button v-for="tab in tabs" v-bind:key="tab" v-bind:class="['tab-button', { active: currentTab === tab }]" v-on:click="currentTab = tab">{{ tab }}</button>
+
+                <component v-bind:is="currentTabComponent" class="tab"></component>
+            </div> -->
+            <!-- <div v-if=></div> -->
+            <encabezado></encabezado>
+            <main class="contenido">
+                <h1>Shaders</h1>
+                <br>
+                <!-- <br>
+                <br> -->
+                <section>
+                    <!-- class="statement" -->
+                    <!-- <h2>¿Que son?</h2> -->
+                    <p>
+
+                        Los Shaders son una mezcla entre un proceso tecnico y un medio creativo. Piezas de codigo que pueden verse.
+                        <br> Nacidos del computo paralelo de pixeles, <a href="http://patriciogonzalezvivo.com/about.php">Patricio Gozales Vivo</a> los compara con
+                        <a href="https://thebookofshaders.com/01/?lan=es">la imprenta de Gutenberg</a> en su libro online
+                        <a href="https://thebookofshaders.com/">"The Book Of Shaders".</a>
+                        <br> Y quizas, si le preguntamos a <a href="https://iquilezles.org/">Inigo Quilez</a> sean algo asi como su video
+                        <a href="https://www.youtube.com/watch?v=8--5LwHRhjk">"pintar con matematicas"</a>
+                        <br>Los shades a duras penas llegaran los treinta años, pero humildemente nos han acompañando incansablemente al dia de hoy, desde la visualizacion de datos de las ciencias, como plantea Andres Colubri o Lev Manovich , hasta en
+                        obras de artes multimidiales y videojuegos.
+                        <br> la y su costado artistico como parte la programacion creativa no las pocas certezas que tenga de los shaders es que son una practica que incorpora tanto una sensibilidad artistica como profundamente matematica y algo de logica
+                        de programacion. sobre todo
+                        <!-- Originalmente esta pagina iba a ser una web de productos pero deci di que era mejor presentarme narrar un poco de mi desarrollo como programador y compartir mi interes actual por los shader en el ultimo año y medio aprendi
+                        a programar un poco de forma autodidacta con python, con guias y buscando contenido de universidades en internet, llegado un tiempo no sabia por donde continuar estudiando. Descubri Proccessing, un lenguje de programación orientado
+                        al arte y basado en java. Luego de un gran tiempo de explorar y generar programar con processing me vi limitado en recursos graficos y buscando soluciones para computar elementos encontre los shaders.
+ -->
+                    </p>
+                </section>
+
+                <hr>
+
+                <section>
+                    <article>
+                        <p>
+                            los shaders son instrucciones de codigo que se compilan para ser procesadas en las unidades graficas del hardware y no en los procesadores lo que los hace extremadamente rapidos pero complejos a la hora de programarlos y pensarlos.
+                            <br><br>
+                            <hr>
+                        </p>
+                    </article>
+                    <article>
+
+                        <div class="iframe">
+                            <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/NsdSWj?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+                            <p></p>
+                        </div>
+                    </article>
+
+                    <article>
+
+                        <div class="iframe">
+                            <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/NddXWj?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+                            <!-- <p>este shader es una</p> -->
+                        </div>
+                    </article>
+
+                    <article>
+
+                        <div class="iframe">
+                            <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/ssdSW2?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe> </div>
+
+                    </article>
+
+                    <p>
+                        Maecenas pharetra pretium quam ut posuere. Quisque luctus sem purus. Phasellus vel nibh sed erat interdum placerat eget a dui. Vivamus viverra pharetra congue. Sed pretium mi eu dui congue pulvinar. Donec felis risus, malesuada quis tristique faucibus,
+                        vestibulum non urna. Fusce nec orci pulvinar, blandit velit quis, finibus neque. Mauris malesuada metus eget ornare pellentesque. Nunc pharetra ante eget ullamcorper finibus. Orci varius natoque penatibus et magnis dis parturient
+                        montes, nascetur ridiculus mus. Nulla maximus a dolor non condimentum. Suspendisse convallis ullamcorper justo.
+                        <br /><br /> Nullam ut erat sit amet elit ultricies tempor vel eget magna. Vivamus vitae diam purus. Fusce semper nisl a nulla congue feugiat. Maecenas et tincidunt felis, dapibus rhoncus sapien. Maecenas tortor tortor, sagittis
+                        ac mattis sed, ullamcorper et orci. Pellentesque quis mollis massa. Donec lacinia turpis sapien, eu tincidunt dui rutrum elementum. Maecenas dictum et metus eget aliquam. Sed imperdiet lacinia vulputate. Vivamus mauris arcu, faucibus
+                        pulvinar laoreet sed, scelerisque et dui.
+                    </p>
+
+                </section>
+            </main>
+            <pie></pie>
+        </div>
+    </div>
+    <script src="componentes.js"></script>
+</body>
+
+</html>
